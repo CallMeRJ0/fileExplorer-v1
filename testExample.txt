@@ -1,0 +1,58 @@
+0 users                 # users folder
+                        # general users folder no contents
+1 user1 "Bob"           # user one clasification and the user name
+"abc"                   # user enter password
+2 folder1 "videos"      # folder in user 1 nammed videos
+                        # no contents other than files
+3 file "example.txt"    # file in folder1 nammed example.txt
+"text file contents"    # contentx of .txt doc
+3 file "testScript.py"  # file in folder1 nammed testScript.py
+a = 10                  """
+for i in range(a):
+    print(i + 1)"       # File contents
+1 user2 "jim"
+                        """ 
+
+
+
+Notes 
+Folder namming scheme
+
+Prohibited Characters: \ / : * ? " < > |
+Reserved Names: Cannot use names like CON, PRN, AUX, NUL, etc.
+Maximum Length: Full path cannot exceed 260 characters.
+
+Make a check or think of something simlar to forbid mentioning a file directory in any file as when checking
+in the info doc it will mnake it find the incorrect directory to read
+
+
+example of macOS file directory
+0 users             
+1 user1 "Bob"           
+2 folder1 "videos"      
+3 file "example.txt"  
+/Users/Username/Documents/Projects/report_2024-10-21.txt
+my method 
+users/bob/videos/example.txt
+
+Namming scheme 
+folder index (starts at 0 index three means you are three folders deep)
+is used to view folder directory in scipt
+
+folder directory simlar to macOS
+used to find folder in script making it so you can locate easier
+
+amonut of lines in folling script (if folder then amount of items)
+
+
+0 users 2
+1 users/bob 3
+2 users/bob/videos 2
+3 users/bob/videos/example.txt 3
+line 1
+line 2 
+line 3
+3 users/bob/videos/testScript.py 0
+
+1 users/jim
+
