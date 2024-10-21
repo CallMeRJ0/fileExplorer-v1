@@ -53,3 +53,23 @@ your_current_directory/
 ├── snake1.py
 └── new_folder/
     └── script.py
+
+
+
+What CHAT GPT suggests to do to craete folders and files and to edit and run them and python files
+
+import os
+import subprocess
+
+# Step 1: Create a new folder
+folder_name = 'new_folder'
+os.makedirs(folder_name, exist_ok=True)
+
+# Step 2: Create a new Python file in that folder
+file_name = os.path.join(folder_name, 'script.py')
+with open(file_name, 'w') as file:
+    # Step 3: Write a basic print statement in the new Python file
+    file.write('print("Hello from the new Python file!")\n')
+
+# Step 4: Run the new Python file from the original script
+subprocess.run(['python', file_name])
