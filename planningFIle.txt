@@ -1,17 +1,9 @@
-0 users                 # users folder
-                        # general users folder no contents
-1 user1 "Bob"           # user one clasification and the user name
-"abc"                   # user enter password
-2 folder1 "videos"      # folder in user 1 nammed videos
-                        # no contents other than files
-3 file "example.txt"    # file in folder1 nammed example.txt
-"text file contents"    # contentx of .txt doc
-3 file "testScript.py"  # file in folder1 nammed testScript.py
-a = 10                  """
-for i in range(a):
-    print(i + 1)"       # File contents
-1 user2 "jim"
-                        """ 
+0 users folder
+1 users/bob folder
+2 users/bob/videos 
+3 users/bob/videos/example.txt 
+3 users/bob/videos/testScript.py 
+1 users/jim
 
 
 
@@ -31,8 +23,6 @@ example of macOS file directory
 1 user1 "Bob"           
 2 folder1 "videos"      
 3 file "example.txt"  
-/Users/Username/Documents/Projects/report_2024-10-21.txt
-my method 
 users/bob/videos/example.txt
 
 Namming scheme 
@@ -56,3 +46,10 @@ line 3
 
 1 users/jim
 
+Idea of when you show file directory
+
+your_current_directory/
+│
+├── snake1.py
+└── new_folder/
+    └── script.py
