@@ -24,6 +24,13 @@ def beginChecks():
     if os.path.exists("fileData.txt"):
         main()
     else:
+        clear()
+        user_name = str(input("Select a user name: "))
+
+
+
+        
+        """
         time.sleep(1.5)
         print(f"{ITALIC}Initializing data Folder{RESET}")
         time.sleep(0.5)
@@ -35,6 +42,7 @@ def beginChecks():
         time.sleep(0.5)
         clear()
        
+       """
     beginChecks()
        
 beginChecks()
